@@ -1,12 +1,105 @@
 *{
     box-sizing: border-box;
 }
-body{
-margin:5
+header{
+    grid-area: header; 
+    grid-area: 200px;
+    background-color: lightgrey;
+    border: 2px solid rgb(0, 28, 80); 
+    padding: 5px;
+    max-width: 100% ; 
+    margin-bottom: 10px;
+ }
+ h1{
+    text-align: center;
+ }
+ *body{
+margin: 75%
 }
 
-header{
-    background: aqua;
-    grid-area: header;
+*nav{
+    grid-area: nav;
+    display: flex;
+}
 
+.btn1{
+    margin-right: 50px;
+}
+
+.btn2{
+    margin-right: 50px;
+}
+.btn3{
+    color: aquamarine;
+    margin-right: 50px;
+}
+.btn4{
+    margin-right: 50px;
+}
+
+article{
+    border: 2px solid rgb(4, 50, 136); 
+    background-color: lightgrey;
+    margin: 10px;
+    margin-left: 5px;
+    margin-left: 5px;
+    max-width: 100%;
+}
+*div{
+    max-width : 2px;
+    max-height: 2px;
+    border: 5px black solid;
+ }
+ *{
+    box-sizing: border-box;
+}
+
+body{
+margin: 10px;
+}
+
+img{ 
+    block-size: 150px;
+    border-color: black;
+
+}
+.img1{ 
+    block-size: 150px;
+    border-color: black;
+}
+.img2{ 
+    block-size: 150px;
+    border-color: black;
+}
+nav{
+        grid-area: nav;
+        display: flex;
     }
+
+#footer{
+    grid-area: footer; 
+    grid-area: 200px;
+    background-color: lightgrey;
+    border: 2px solid rgb(0, 28, 80); 
+    padding: 5px;
+    max-width: 100% ; 
+ }
+ #section1{
+    max-width: 50% ; 
+    background-color: lightgrey;
+    margin: 10px;
+    margin-left: 15px;
+    margin-left: 15px;
+    max-width: 100% ; 
+  }
+  #section2{
+    max-width: 50% ; 
+    background-color: lightgrey;
+    margin: 10px;
+    margin-left: 15px;
+    margin-left: 15px;
+    max-width: 100% ; 
+  }
+  h3{
+    margin-left: 10px;
+  }
